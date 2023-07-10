@@ -1,0 +1,91 @@
+body{
+ margin: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgba(255, 235, 245, 0.767);
+}
+.header-part{
+    display: flex;
+    height: 100vm;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-tex1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.header-tex2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: #E55473;
+    color: aliceblue;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+}
+.header-tex-div{
+    padding-left: 100px;
+}
+.header-pic{
+    width: 600px;
+    height: 800px;
+    padding-right: 80px;
+}
+.featured-tex{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.featured-tex h1{
+    font-size: 35px;
+}
+.flower-bg1{
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    text-align: center;
+    border-start-end-radius: 250px;
+    border-start-start-radius: 250px;
+}
+.flower-bg2{
+    background-color: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    text-align: center;
+    border-start-end-radius: 250px;
+    border-start-start-radius: 250px;
+}
+.flower-bg3{
+    background-color: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    text-align: center;
+    border-start-end-radius: 250px;
+    border-start-start-radius: 250px;
+}
+.position-bg1{
+    padding-top: 110px;
+}
+.position-bg2{
+    padding-top: 110px;
+}
+.position-bg3{
+    padding-top: 67px;
+}
+.flowers-sec{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.tex-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 20px;
+    align-items: center;
+}
