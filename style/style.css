@@ -12,7 +12,7 @@ header{
     align-items: center;
 }
 .header-tex1{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 30px;
 }
@@ -47,7 +47,7 @@ header{
 }
 .flower-bg1{
     background-color: rgba(167, 33, 98, 0.15);
-    width: 464px;
+    width: 27%;
     height: 538px;
     text-align: center;
     border-start-end-radius: 250px;
@@ -55,7 +55,7 @@ header{
 }
 .flower-bg2{
     background-color: rgba(5, 151, 160, 0.15);
-    width: 464px;
+    width: 27%;
     height: 538px;
     text-align: center;
     border-start-end-radius: 250px;
@@ -63,7 +63,7 @@ header{
 }
 .flower-bg3{
     background-color: rgba(71, 125, 17, 0.15);
-    width: 464px;
+    width: 27%;
     height: 538px;
     text-align: center;
     border-start-end-radius: 250px;
@@ -80,8 +80,9 @@ header{
 }
 .flowers-sec{
     display: flex;
+    gap: 10px;
     justify-content: center;
-    gap: 17px;
+
 }
 .tex-container{
     display: flex;
@@ -91,7 +92,7 @@ header{
     align-items: center;
 }
 .services-area{
-    width: 1440px;
+    width:81%;
     height: 320px;
     display: flex;
     background-color: rgba(39, 39, 39, 0.05);
@@ -125,6 +126,13 @@ header{
     display: flex;
     justify-content: center;
     gap: 25px;
+
+}
+.top-one{
+    width: 20%;
+}
+.top-one img{
+    width: 100%;
 }
 .instagram-tex{
     text-align: center;
@@ -168,10 +176,12 @@ header{
 #top1{
    background-image: url("../Rectangle 9.png");
    height: 450px;
-   width: 100%;
+   width: 80%;
    background-repeat: no-repeat;
    background-position: center;
+   margin: 0 auto;
    margin-top: 150px;
+
 }
 .deals-tex{
     text-align: center;
