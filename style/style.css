@@ -27,6 +27,7 @@ header{
     border: none;
     border-radius: 7px;
     margin-top: 20px;
+    cursor: pointer;
 }
 .header-tex-div{
     padding-left: 100px;
@@ -132,4 +133,96 @@ header{
 }
 .instagram-tex h1{
     font-size: 45px;
+}
+.box{
+    width: 200px;
+    box-shadow: 10px 10px 70px rgba(55, 255, 238, 0.699);
+    height: 315px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.box-btn{
+    margin-top: 30px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 7px 13px;
+    cursor: pointer;
+}
+.sec-are{
+    height: 500px;
+    width: 100%;
+}
+.section-header-one{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+#top1{
+   background-image: url("../Rectangle 9.png");
+   height: 450px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 150px;
+}
+.deals-tex{
+    text-align: center;
+    padding-top: 70px;
+}
+.deals-tex h1{
+    font-size: 50px;
+}
+.input-one{
+    padding: 23px;
+    width: 500px;
+    font-size: 20px;
+    border: none;
+}
+.ff{
+    text-align: center;
+    padding-top: 20px;
+}
+.btn-last{
+    padding: 23px 25px;
+    background-color: #E55473;
+    color: aliceblue;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+}
+footer{
+    width:  100%;
+    height: 449px;
+    background-color: #111010;
+    margin-top: 180px;
+    color: aliceblue;
+}
+.foter-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-tex{
+    text-align: center;
+}
+.footer-header{
+    font-size: 50px;
+}
+#footer-shop{
+    color: #E55473;
+}
+#copy-right{
+    font-size: 16px;
+    color: gray;
+    padding-top: 37px;
 }
